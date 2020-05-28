@@ -1,0 +1,111 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+
+header {
+    text-align: left;
+    font-size: 35px;
+    color: white;
+    margin-left: 5%;
+}
+
+#profile-image {
+    width: 15%;
+    height: 15%;
+    /*float: left;*/
+    border-radius: 15%;
+    margin-left: 5%;
+    /*height: 100%;*/
+}
+
+#icon-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    justify-content: space-between;
+    border-radius: 15%;
+}
+
+.social_network_icons {
+    margin-right: 40px;
+    margin-bottom: 10%;
+    width: 60px;
+    height: 60px;
+
+}
+
+.social_network_icons:hover {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+    margin-bottom: 0px
+}
+
+.navItem {
+    font-size: 180%;
+    color: white;
+    font-family: Baghdad;
+}
+
+.navItem:hover {
+    color: darkgray;
+}
+
+.navigationItems {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.header1 {
+    font-size: 140%;
+    color: white;
+    font-family: Baghdad;
+    margin-top: 5%;
+
+}
+
+.content {
+    font-size: 140%;
+    color: white;
+    font-family: Baghdad;
+    margin-left: 3%;
+
+}
+
+#contentFlex {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    font-size: 120%;
+    color: white;
+    font-family: Baghdad;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    min-width: 140px;
+}
+
+
+
