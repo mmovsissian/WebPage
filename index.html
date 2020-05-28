@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movses Movsisyan CV Page</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+</head>
+<body>
+
+<header>
+    <p> Movses Movsisyan</p>
+
+</header>
+
+
+<div class="flex-container">
+
+    <img id="profile-image" src="Images/profile.jpg" alt="Profile Picture">
+
+
+    <div class="navigationItems">
+        <a class="navItem" href="#WorkExperience">Work experience</a>
+        <a class="navItem" href="#Skills">Skills</a>
+        <a class="navItem" href="#Certifications">Certifications</a>
+        <a class="navItem" href="#MoreAboutMe">More About Me</a>
+    </div>
+
+    <div id="icon-holder">
+        <a class="links" href="https://www.linkedin.com/in/movses-movsisyan-1792b1128/" target="_blank"> <img
+                class="social_network_icons" src="Images/linkedin.png" alt="Profile Picture"></a>
+        <a class="links" href="https://www.facebook.com/movses.movsissian" target="_blank"><img
+                class="social_network_icons" src="Images/facebook.png" alt="Profile Picture"></a>
+        <a class="links" href="https://www.skype.com/en/" target="_blank"> <img
+                class="social_network_icons" src="Images/skype.png" alt="Profile Picture"> </a>
+        <img id="emailReveal"
+             class="social_network_icons" src="Images/email.png" alt="Profile Picture" onclick="myFunction()">
+    </div>
+</div>
+
+
+<div id="contentFlex">
+    <div>
+        <h1 class="header1 " id="WorkExperience"> Work experience</h1>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Company</th>
+                <th>Position</th>
+                <th>Responsibilities</th>
+            </tr>
+
+            <tr>
+                <td>2018 -</td>
+                <td>Workfront</td>
+                <td>Quality Engineer II</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit
+                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                    non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <div>
+        <h1 class="header1" id="Skills"> Skills</h1>
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div>
+        <h1 class="header1" id="Certifications"> Certifications</h1>
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div>
+        <h1 class="header1" id="MoreAboutMe"> More About Me</h1>
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+</div>
+
+
+<script>
+    function myFunction() {
+        const el = document.createElement('textarea');
+        el.value = "movsesmovsisyan@workfront.com";
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        alert("email copied to clipboard")
+    }
+</script>
+
+</body>
+</html>
